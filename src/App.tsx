@@ -32,7 +32,8 @@ export default function App() {
       <main>
         <HeroSection onOpenConnect={handleOpenConnect} />
         <AboutSection />
-        <SkillsSection />
+       <SkillsSection />
+       {/* Projects section */}
         <ProjectsSection />
         <CredentialsSection />
         <LeadershipSection />
